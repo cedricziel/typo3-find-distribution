@@ -3,7 +3,7 @@
 		{ "type": "composer", "url": "https://composer.typo3.org/" }
 	],
 	"name": "cedricziel/typo3-find-distribution",
-	"description" : "TYPO3 CMS Base Distribution",
+	"description" : "TYPO3 CMS Distribution with EXT:find and Solr",
 	"license": "GPL-2.0+",
 	"type": "project",
 	"require": {
