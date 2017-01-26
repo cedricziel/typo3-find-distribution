@@ -1,6 +1,6 @@
-# TYPO3 CMS Base Distribution
+# TYPO3 CMS Find Distribution
 
-Get going quickly with TYPO3 CMS.
+Get going quickly with TYPO3 CMS, EXT:find and Solr quickly.
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@ Get going quickly with TYPO3 CMS.
 
 ## Quickstart
 
-* `composer create-project cedricziel/typo3-base-distribution project-name dev-master`
+* `composer create-project cedricziel/typo3-find-distribution project-name dev-master`
 * `cd project-name`
 * `docker-compose up -d`
 
