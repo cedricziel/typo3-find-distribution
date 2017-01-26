@@ -10,3 +10,11 @@ services:
     command: 'mysqld --character-set-server=utf8 --collation-server=utf8_unicode_ci'
     ports:
       - '33060:3306'
+  solr:
+    image: solr:6.3-alpine
+    ports:
+      - '8983:8983'
+    entrypoint:
+      - docker-entrypoint.sh
+      - solr-precreate
+      - mycore
